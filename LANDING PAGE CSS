@@ -1,0 +1,207 @@
+.hero{
+    background-color:black;
+    height:100vh;
+    width:100%;
+    background-size: cover;
+}
+.items{
+    background-image: linear-gradient(
+            to right, #e6e8e6, #c5c7c5,
+            #89bfc4);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-family:"cabin";
+        margin-left:25px;
+        letter-spacing: 1px;
+        font-weight:700;
+}
+.logo{
+    background-image: linear-gradient(
+        to right, #e6e8e6, #89bfc4,
+        #89bfc4);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family:"Playfair Display";
+    letter-spacing: 4px;
+    margin-left:20px;
+    font-weight:700;
+}
+.a{
+    font-family: "Playfair Display";
+    font-size:40px;
+}
+.hero-text-div{
+    text-align:center;
+    
+}
+.hero-text{
+    text-align:center;
+    color:white;
+    letter-spacing: 5px;
+    font-family:"impact";
+    font-weight:700;
+}
+.hero-p{
+    font-style:italic;
+    letter-spacing: 2px;
+    font-weight:400;
+    color:white;
+    transition: transform 0.5s;
+
+}
+.hero-p:hover{
+    transform:translateY(-10px);
+}
+.hero-button{
+    background-color: white;
+    border-width: 0px;
+    border-radius:30px;
+    color:#008B74;
+    padding:10px;
+    width:20%;
+    letter-spacing:2px;
+
+}
+.d-p{
+    color:grey;
+    font-weight: bold;   
+
+}
+.d-h2{
+    color:#008B74;
+    font-weight: bold; 
+}
+.d-img-1{
+      height:400px;
+      width:300px;
+      
+      border-radius:30px;
+      transition: transform 0.5s;
+}
+.d-img-1:hover{
+    transform: translateY(-10px);
+    box-shadow: 10px 5px 5px;
+}
+
+.d-img-p{
+    color:balck;
+    font-weight:bold;
+}
+.d-button{
+    background-color:#008B74;
+    color:white;
+    border-radius:20px;
+    border-width:0px;
+    padding:5px;
+    width:100px;
+    transition:background 0.5s;
+}
+.d-button:hover{
+    background-color: red;
+}
+
+.hwc{
+    background-color:#C4FCF0;
+}
+.hwc-img{
+    height:300px;
+    width:450px;
+}
+.hwc-h3{
+    color:black;
+    font-weight:bold;
+}
+.hwc-p{
+    color:grey;
+}
+.hwc-button{
+    background-color:white;
+    color:black;
+    border-radius:20px;
+    border-width:0px;
+    padding:5px;
+    width:20%;
+}
+.inside-card{
+    padding-top:100px;
+}
+.cards{
+    background-color:#C4FCF0;
+    color:black;
+    height:50%;
+    width:50%;
+    margin:auto;
+    text-align: center;
+    margin-top:150px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius:35px;
+}
+.info-b{
+    
+    background-color:#008B74;
+    color:white;
+    border-radius:10px;
+    border-width:0px;
+    padding:5px;
+    width:10%;
+
+}
+.world{
+    background-image:url("https://res.cloudinary.com/dftcmw8wg/image/upload/v1682607881/Our-Around-the-World-Itinerary-Map.jpg.optimal_zuhpqe.jpg");
+    height:100vh;
+    width:100%;
+    background-size: cover;
+}
+.world-info{
+    font-style:italic;
+    letter-spacing: 2px;
+    font-weight:400;
+    color:black;
+}
+.login-divv{
+    height:70%;
+    width:30%;
+    background-color:transparent;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 30px;
+    background-color:#003900;
+    
+}
+.l-divv{
+    height:100vh;
+    background-image:linear-gradient(120deg,#C4FCF0,black)
+}
+.in{
+    background-color:transparent;
+    border-width:0px;
+    margin-top:15px;
+    color:white;
+}
+.in-b{
+    color:white;
+    font-weight: bold;
+}
+.decor{
+    text-decoration: underline;
+    color:#003900
+}
+.footer-section {
+    background-color: #0d2436;
+}
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+.tour-logo {
+    width: 80px;
+    height: 70px;
+  }
