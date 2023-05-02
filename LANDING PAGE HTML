@@ -1,0 +1,155 @@
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a website used for temperature conversion">
+    <title>Tour by AI</title>
+    <link rel="shortcut icon" type="image" href="https://res.cloudinary.com/dftcmw8wg/image/upload/v1682953256/tourimg_psduae.jpg">
+    <link rel="stylesheet" href="landingpage.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div>
+    <div class="hero">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <p class="logo"><span class="a">A</span><span>I</span><span class="a">T</span><span>RIP</span></p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active items" aria-current="page" href="#">Home</a>
+                <a class="nav-link items" href="#">Features</a>
+                <a class="nav-link items" href="#">Pricing</a>
+                <a class="nav-link items" href="#">Disabled</a>
+            </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="hero-text-div mt-5">
+        <h1 class="hero-text">Now<br>Plan your Trip by AI</h1>
+        <p class="hero-p mt-3">Make memories and remember it in future..</p>
+        <button class="hero-button mt-3" onclick="display('sectionFormm')">Challenge accepted</button>
+    </div>
+    </div>
+    
+    <div class="destination mt-5 mb-5 mr-4 ml-4">
+        <p class="d-p">PLAN WITH AI</p>
+        <h2 class="d-h2">One step to start!</h2>
+        <div class="d-img mt-5 d-flex flex-row justify-content-between">
+        <div class="container-fluid">
+        <div class="row">
+        <div class="col-12 col-md-4">
+        <div>
+            <img src="https://res.cloudinary.com/dftcmw8wg/image/upload/v1681141797/firosnv-photography-luMDvpazO_Y-unsplash_iwmtlc.jpg" class="d-img-1"/>
+            <h3 class="d-img-p mt-3">Waynad</h3>
+        </div>
+        </div>
+        <div class="col-12 col-md-4">
+        <div>
+            <img src="https://res.cloudinary.com/dftcmw8wg/image/upload/v1681141919/meric-dagli-k-ejtalL1Ik-unsplash_iasze4.jpg" class="d-img-1"/>
+            <h3 class="d-img-p mt-3">Munnar</h3>
+        </div>
+        </div>
+        <div class="col-12 col-md-4">
+        <div>
+            <img src="https://res.cloudinary.com/dftcmw8wg/image/upload/v1681142027/rishabh-pammi-RTvEJIwXPlY-unsplash_dlltpq.jpg" class="d-img-1"/>
+            <h3 class="d-img-p mt-3">Ooty</h3>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        <button class="d-button mt-3">View all</button>
+    </div>
+    
+    <div class="hwc mt-5 p-4">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-12 col-md-5">
+            <img src="https://res.cloudinary.com/dftcmw8wg/image/upload/v1681186687/ashim-d-silva-UjxL9x0nwQ8-unsplash_wvwtgj.jpg" class="hwc-img"/>
+            </div>
+        <div class="ml-5">
+            <h3 class="hwc-h3">How we choose?</h3>
+            <p class="mt-3 hwc-p">With utmost care our team of developers used several algorithms that takes input <br>from the users and results best tour plan. <br><br>click on below button to check how our algorithm works !!</p>
+            <div class="d-flex flex-row mt-3">
+            
+            <button class="hwc-button">Check</button>    
+            <button class="hwc-button ml-5">Plan</button>
+
+            </div>
+        
+        </div>
+    
+    </div>
+    </div>
+    </div>
+  
+    <div class="p-4">
+        <h3 class="hwc-h3">Tap the right place.</h3>
+        <p class="hwc-h3 world-info">Our AI TRIP makes a best plan which suits you...</p>
+        <button class="info-b">Tap</button>
+    </div>
+    
+    <div class="world">
+    </div>
+    
+    <div class="l-divv d-flex flex-column justify-content-center">
+        <center>
+        <h3 class="hwc-h3 decor">Get the Trip plans by AI via email</h3>
+        <div class="d-flex flex-column login-divv p-5 mt-5">
+        
+        <input type="text" id="mail" placeholder="Enter your email " class="in">
+        <input type="text" id="destination" placeholder="Enter Proceeding place" class="in">
+        <button class="in in-b">Get</button>
+        </center>
+    </div>
+    
+    <div class="footer-section p-5 pt-5 pb-5">
+        <div class="d-flex flex-row justify-content-between">
+            <div>
+                <p class="logo"><span class="a">A</span><span>I</span><span class="a">T</span><span>RIP</span></p>
+                <p style="color:white;">We are planners for your Trip with new trend called AI.<br>
+                    Our AI model get the inputs from you and analyse with our AI algorithm,<br>
+                    and we suggests you with the best trip plans according to your comfortable.
+                </p>
+            </div>
+
+            <div class="d-flex flex-column">
+                <p style="color:grey;font-weight:bold;">Help</p>
+                <a href="" style="color:white" class="mt-3">Support</a>
+                <a href="" style="color:white" class="mt-3">Trouble shooting</a>
+                <a href="" style="color:white" class="mt-3">Contacting Us</a>
+            </div>
+
+            
+        
+            <div class="text-center pt-3">
+              <img
+                src="https://res.cloudinary.com/dftcmw8wg/image/upload/v1682953256/tourimg_psduae.jpg"
+                class="tour-logo"
+              />
+              <h1 class="footer-section-mail-id">tour@aitrip.com</h1>
+              <p class="footer-section-address">
+                123 Ayur Vigyan Nagar, New Delhi, India.
+              </p>
+            </div>
+        </div>
+        <center>
+            
+        </center>
+          
+    </div>
+    
+</div>
+</body>
+</html>
